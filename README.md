@@ -35,10 +35,10 @@ A modern, interactive timeline component built with TypeScript and React. Deploy
 ## Testing Approach
 
 Current test coverage with Cypress includes basic functionality. With more time, I would add tests for:
-  - Lane assignment algorithm
-  - Date calculations and formatting
-  - Item creation/editing flow
-  - Tooltip and modal interactions
+  - Lane assignment algorithm - Unit Testing
+  - Date calculations and formatting - Unit Testing / Component Testing ( React Testing Library )
+  - Item creation/editing flow - Component Testing ( React Testing Library )
+  - Tooltip and modal interactions - Component Testing ( React Testing Library )
 
 ## Development
 
