@@ -16,11 +16,12 @@ A modern, interactive timeline component built with TypeScript and React. Deploy
 
 ## What I Would Change
 
-1. **First of all: use a library to handle the Timeline Component instead of reinventing the wheel with no need.**
-2. **Switch to Tailwind**: Given styled-components' deprecation, Tailwind would be a more future-proof choice
-3. **Better Date Handling**: Use a robust date library like date-fns from the start
-4. **More Accessible**: Add better keyboard navigation and ARIA attributes
-5. **State Management**: Consider using a more robust state management solution for complex interactions
+1. **First of all: Clean up the Timeline Component:** I would create a **TimelineItem** component or perhaps a **TimelineLane** one. Perhaps a custom hook could also come in handy to decouple most of the logic from _Timeline_.
+2. Second: use a library to handle the Timeline Component instead of reinventing the wheel with no need.
+3. **Switch to Tailwind**: Given styled-components' deprecation, Tailwind would be a more future-proof choice
+4. **Better Date Handling**: Use a robust date library like date-fns from the start
+5. **More Accessible**: Add better keyboard navigation and ARIA attributes
+6. **State Management**: Consider using a more robust state management solution for complex interactions
 
 ## Design Decisions
 
