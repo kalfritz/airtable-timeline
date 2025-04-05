@@ -2,7 +2,7 @@
 
 A modern, interactive timeline component built with TypeScript and React. Deployed on Vercel for optimal performance and reliability.
 
-Live on:
+🖥️ **Live on**: https://airtable-timeline.vercel.app/
 
 ## What I Like About My Implementation
 
